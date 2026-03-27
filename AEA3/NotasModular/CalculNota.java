@@ -12,8 +12,8 @@ public class CalculNota {
             misNotas[i] = teclado.nextDouble();
         }
 
-        System.out.println("Nota mitjana: " + CalcularMitjana(misNotas));
-        System.out.println("Nota minima: " + CalcularMinima(misNotas));
-        System.out.println("Nota máxima: " + CalcularMaxima(misNotas));
+        System.out.println("Nota mitjana: " + Calculs.CalcularMitjana(misNotas));
+        System.out.println("Nota minima: " + Calculs.CalcularMinima(misNotas));
+        System.out.println("Nota máxima: " + Calculs.CalcularMaxima(misNotas));
     }
 }
